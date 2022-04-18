@@ -11,14 +11,14 @@ int main() {
 
 
 	SelimCeylan::NumberSearch* a = new SelimCeylan::NumberSearch();
-	std::string sonuc;
+	std::string result;
 
 
 	//INumberSearch b();
 	a->SetTargetNumber(320);
 	a->SetInputNumbers("2 3 7 10 25 50");
-	sonuc = a->GetSolution();
-	cout << sonuc << endl;
+	result = a->GetSolution();
+	cout << result << endl;
 
 	//a().SetTargetNumber(20);
 	//a().SetInputNumbers("15 20 25");
